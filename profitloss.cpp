@@ -10,17 +10,6 @@ int main(){
     cin>>cost;
     cout<<"selling price :";
     cin>>sell;
-    // if(cost<sell){
-    //     cout<<"PROFIT"<<endl;
-    //     cout<<"how much :"<<sell-cost;
-    // }
-    // if(cost>sell){
-    //     cout<<"LOSS"<<endl;
-    //     cout<<"how much :"<<cost-sell;
-    // }
-    //   if(cost==sell){
-    //     cout<<"NO PROFIT NO LOSS";
-    // }
     if(cost<sell){
         cout<<"PROFIT"<<endl;
         cout<<"how much :"<<sell-cost;
@@ -32,4 +21,5 @@ int main(){
     else{
         cout<<"NO PROFIT NO LOSS";
     }
+
 }
